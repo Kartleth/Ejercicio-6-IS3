@@ -13,9 +13,7 @@ def verificar_ganador(tablero, jugador):
             return True
 
     # Verificar columnas
-    for i in range(3):
-        if all([fila[i] == jugador for fila in tablero]):
-            return True
+  
 
     # Verificar diagonales
     if all([tablero[i][i] == jugador for i in range(3)]) or all([tablero[i][2 - i] == jugador for i in range(3)]):
