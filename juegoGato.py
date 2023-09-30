@@ -29,5 +29,3 @@ def juego_gato():
 
     
 
-# Llamar a la función principal del juego
-juego_gato()
